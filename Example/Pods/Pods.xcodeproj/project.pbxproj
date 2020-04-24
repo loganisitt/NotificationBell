@@ -100,9 +100,9 @@
 		A38A1BAB9DC7FB158426F2791D2BDB9B /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9EC488C7767AB2C57B7E4C6E44CE5 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A3A25739D8FCB7A4FE17C8C5A6C7BE72 /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 410A9954C8AB67647120C735B5873D1C /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 48221814B80C1FF03D0DF82BED2E298F /* UIImage+Snapshot.m */; };
-		A77E13CC245276B70025096A /* CalendarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E13C82452766B0025096A /* CalendarNotification.swift */; };
-		A77E13CD245276BF0025096A /* CalendarNotificationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E13CA2452769B0025096A /* CalendarNotificationGroup.swift */; };
-		A77E13D0245276F40025096A /* NotificationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E13CE245276D10025096A /* NotificationGroup.swift */; };
+		A77E13D424527BC80025096A /* CalendarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E13D124527BC70025096A /* CalendarNotification.swift */; };
+		A77E13D524527BC80025096A /* CalendarNotificationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E13D224527BC70025096A /* CalendarNotificationGroup.swift */; };
+		A77E13D624527BC80025096A /* NotificationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E13D324527BC80025096A /* NotificationGroup.swift */; };
 		A787308C5CA0BCA2B3A706F44CD5F7B4 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08B324230DD8E13633A0D601A6DDECE /* ErrorUtility.swift */; };
 		A9303001CC6899699410252B570C3FA2 /* NBSMockedApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8D28DC902C67981653458B365473B7 /* NBSMockedApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2F79D3BF6F4CB33383BDBA189AA12B /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353095FF8C83FCBD5FBE89C1C39F09E /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -356,9 +356,9 @@
 		A583848B9671F21BDF3D3F3E5288FFFF /* Pods-NotificationBell_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationBell_Example-Info.plist"; sourceTree = "<group>"; };
 		A6872822B2717DF28B26ABA098841935 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
 		A69EB16895D0FDA9699EED91A3CFB841 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A77E13C82452766B0025096A /* CalendarNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarNotification.swift; sourceTree = "<group>"; };
-		A77E13CA2452769B0025096A /* CalendarNotificationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarNotificationGroup.swift; sourceTree = "<group>"; };
-		A77E13CE245276D10025096A /* NotificationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationGroup.swift; sourceTree = "<group>"; };
+		A77E13D124527BC70025096A /* CalendarNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarNotification.swift; path = NotificationBell/Classes/CalendarNotification.swift; sourceTree = "<group>"; };
+		A77E13D224527BC70025096A /* CalendarNotificationGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarNotificationGroup.swift; path = NotificationBell/Classes/CalendarNotificationGroup.swift; sourceTree = "<group>"; };
+		A77E13D324527BC80025096A /* NotificationGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationGroup.swift; path = NotificationBell/Classes/NotificationGroup.swift; sourceTree = "<group>"; };
 		A82F5E464D953695D37E679B4E65D46D /* Quick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.debug.xcconfig; sourceTree = "<group>"; };
 		A8D0A8F61B632B74E256E83003ACD8C6 /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
 		AB1AB9CCBF224C6B3A5448377BC14CC1 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
@@ -701,9 +701,9 @@
 			isa = PBXGroup;
 			children = (
 				297A33C976A6F415610818F058D718D8 /* NotificationBell.swift */,
-				A77E13CE245276D10025096A /* NotificationGroup.swift */,
-				A77E13C82452766B0025096A /* CalendarNotification.swift */,
-				A77E13CA2452769B0025096A /* CalendarNotificationGroup.swift */,
+				A77E13D124527BC70025096A /* CalendarNotification.swift */,
+				A77E13D224527BC70025096A /* CalendarNotificationGroup.swift */,
+				A77E13D324527BC80025096A /* NotificationGroup.swift */,
 				BCBBBC7F64A91684090A170DE9DB103A /* Pod */,
 				CDA79E742CB9AEFBC618F53C57D4AA66 /* Support Files */,
 			);
@@ -1206,11 +1206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E13CD245276BF0025096A /* CalendarNotificationGroup.swift in Sources */,
+				A77E13D524527BC80025096A /* CalendarNotificationGroup.swift in Sources */,
 				A2E92C3CA16142A11DF27B54EF44143C /* NotificationBell-dummy.m in Sources */,
 				FC2151A6C4B16BE6E9EDA55F5028EF7A /* NotificationBell.swift in Sources */,
-				A77E13CC245276B70025096A /* CalendarNotification.swift in Sources */,
-				A77E13D0245276F40025096A /* NotificationGroup.swift in Sources */,
+				A77E13D424527BC80025096A /* CalendarNotification.swift in Sources */,
+				A77E13D624527BC80025096A /* NotificationGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
