@@ -1,0 +1,6 @@
+framework module NotificationBell {
+  umbrella header "NotificationBell-umbrella.h"
+
+  export *
+  module * { export * }
+}

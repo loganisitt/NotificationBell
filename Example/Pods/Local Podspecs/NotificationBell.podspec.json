@@ -1,0 +1,22 @@
+{
+  "name": "NotificationBell",
+  "version": "0.1.0",
+  "summary": "A short description of NotificationBell.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/loganisitt/NotificationBell",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "loganisitt": "logan.isitt@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/loganisitt/NotificationBell.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NotificationBell/Classes/**/*"
+}

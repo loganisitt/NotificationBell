@@ -1,0 +1,6 @@
+framework module Pods_NotificationBell_Tests {
+  umbrella header "Pods-NotificationBell_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
